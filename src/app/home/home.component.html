@@ -1,4 +1,4 @@
 <p>home works!</p>
 <p *ngFor="let pokemon of pokemons">
-    {{ pokemon.name }}
+    <a [routerLink]="'/blog/' + pokemon.name">{{ pokemon.name }}</a>  
 </p>

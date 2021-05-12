@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'blog',
+    path: 'blog/:id',
     component: BlogComponent
   },
   {
