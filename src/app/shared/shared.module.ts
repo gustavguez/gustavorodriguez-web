@@ -11,6 +11,7 @@ import { DividerBstarIconComponent } from './divider/divider-bstar-icon/divider-
 import { FooterTwitterIconComponent } from './footer/footer-twitter-icon/footer-twitter-icon.component';
 import { FooterGithubIconComponent } from './footer/footer-github-icon/footer-github-icon.component';
 import { FooterLinkedinIconComponent } from './footer/footer-linkedin-icon/footer-linkedin-icon.component';
+import { BlogItemComponent } from './blog-item/blog-item.component';
 
 
 
@@ -26,7 +27,8 @@ import { FooterLinkedinIconComponent } from './footer/footer-linkedin-icon/foote
     DividerBstarIconComponent,
     FooterTwitterIconComponent,
     FooterGithubIconComponent,
-    FooterLinkedinIconComponent
+    FooterLinkedinIconComponent,
+    BlogItemComponent
   ],
   imports: [
     CommonModule
@@ -34,7 +36,8 @@ import { FooterLinkedinIconComponent } from './footer/footer-linkedin-icon/foote
   exports: [
     HeaderComponent,
     FooterComponent,
-    DividerComponent
+    DividerComponent,
+    BlogItemComponent
   ]
 })
 export class SharedModule { }

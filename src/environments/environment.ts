@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  analyticsCode: 'UA-170915107-1'
+  analyticsCode: ''
 };
 
 /*
