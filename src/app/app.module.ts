@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './home/home.module';
+
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { HomeIntroComponent } from './home/home-intro/home-intro.component';
-import { HomeAboutMeComponent } from './home/home-about-me/home-about-me.component';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    HomeIntroComponent,
-    HomeAboutMeComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     SharedModule,
+    HomeModule,
+    NgxGoogleAnalyticsModule.forRoot(environment.analyticsCode),
     AppRoutingModule
   ],
   providers: [],
