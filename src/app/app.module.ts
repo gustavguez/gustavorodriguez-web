@@ -8,6 +8,7 @@ import { HomeModule } from './home/home.module';
 
 import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { environment } from 'src/environments/environment';
     SharedModule,
     HomeModule,
     NgxGoogleAnalyticsModule.forRoot(environment.analyticsCode),
-    AppRoutingModule
+    AppRoutingModule,
+    ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
