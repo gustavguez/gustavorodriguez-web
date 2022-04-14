@@ -1,1 +1,1 @@
-[{"route":"/"}]
+[{"route":"/talks/dcl-angular-montevideo-16-09-2020","title":"Introducción a Dynamic Component Loader","description":"DCL nos permite crear instancias de componentes, cargarles información y renderearlo en tiempo de ejecución, sin tener que referenciarlo en el template.","image":"/data/pictures/dcl-talk.png","published":true,"sourceFile":"dcl-angular-montevideo-16-09-2020.md"},{"route":"/"}]

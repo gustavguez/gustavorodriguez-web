@@ -29,7 +29,12 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": ["src/favicon.ico", "src/_redirects", "src/assets"],
+            "assets": [
+              "src/favicon.ico",
+              "src/_redirects",
+              "src/assets",
+              "src/data/pictures"
+            ],
             "styles": ["src/styles.scss"],
             "scripts": []
           },

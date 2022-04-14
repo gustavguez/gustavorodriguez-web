@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-web": "ng build --configuration production && npx scully",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "scully": "npx scully --",

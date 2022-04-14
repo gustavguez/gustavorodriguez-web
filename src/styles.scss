@@ -1,20 +1,35 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 /* You can add global styles to this file, and also import other style files */
 
 .primary-bg {
-    background-color: #1abc9c !important;
+  background-color: #1abc9c !important;
 }
 .primary-color {
-    color: #1abc9c !important;
+  color: #1abc9c !important;
 }
 .secondary-bg {
-    background-color: #2c3e50 !important;
+  background-color: #2c3e50 !important;
 }
 .secondary-color {
-    color: #2c3e50 !important;
+  color: #2c3e50 !important;
 }
 .tertiary-bg {
-    background-color: #1a252f !important;
+  background-color: #1a252f !important;
+}
+
+.md-generated h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.md-generated p {
+  margin-top: 30px;
+}
+
+.md-generated iframe {
+  margin-top: 30px;
+  width: 80vw;
+  height: calc(80vw / 1.77);
 }
