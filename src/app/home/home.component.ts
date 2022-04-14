@@ -14,7 +14,9 @@ export class HomeComponent {
   constructor(private scullyRoutesService: ScullyRoutesService) {
     this.scullyRoutesService.available$.subscribe((response: any[]) => {
       //Filter that routs with /talks
-      this.talks = response.filter((md: Md) => md.route.includes('/talks'));
+      this.talks = response
+        .filter((md: Md) => md.route.includes('/talks'))
+        .sort((a: Md, b: Md) => <any>new Date(b.date) - <any>new Date(a.date));
     });
   }
 }

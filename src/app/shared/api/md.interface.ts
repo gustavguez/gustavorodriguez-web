@@ -3,5 +3,6 @@ export interface Md {
   image: string;
   published: boolean;
   route: string;
+  date: string;
   title: string;
 }
