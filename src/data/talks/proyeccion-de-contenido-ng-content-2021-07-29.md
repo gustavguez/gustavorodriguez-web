@@ -8,7 +8,7 @@ published: true
 
 # Proyección de contenido usando ng-content
 
-Charla ralizada para <a href="https://www.meetup.com/Angular-MVD" target="_blank">Angular Montevideo</a> (<a href="https://twitter.com/angularmvd" target="_blank">@angularmvd</a>) el día 29/07/2021 sobre proyección de contenido usando ng-content.
+Charla realizada para <a href="https://www.meetup.com/Angular-MVD" target="_blank">Angular Montevideo</a> (<a href="https://twitter.com/angularmvd" target="_blank">@angularmvd</a>) el día 29/07/2021 sobre proyección de contenido usando ng-content.
 
 Descarga la PPT de siguiente <a href="https://drive.google.com/file/d/1kEBFV8NXjlONpbYcZXgjuObGGu1VUhYR/view?usp=sharing" target="_blank">LINK</a>.
 

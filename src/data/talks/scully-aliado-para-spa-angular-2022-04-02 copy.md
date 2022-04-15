@@ -8,7 +8,7 @@ published: true
 
 # Scully un aliado para las SPA en Angular
 
-Charla ralizada para <a href="https://www.youtube.com/c/MacaoTech" target="_blank">MacaoTech</a> (<a href="https://twitter.com/MacaoTech" target="_blank">@MacaoTech</a>) el día 02/04/2022 sobre Scully un aliado para las SPA en Angular.
+Charla realizada para <a href="https://www.youtube.com/c/MacaoTech" target="_blank">MacaoTech</a> (<a href="https://twitter.com/MacaoTech" target="_blank">@MacaoTech</a>) el día 02/04/2022 sobre Scully un aliado para las SPA en Angular.
 
 Descarga la PPT de siguiente <a href="https://drive.google.com/file/d/1i5RaMigdEVIfeHwjuF00DGXV_jFTCFc7/view?usp=sharing" target="_blank">LINK</a>.
 
